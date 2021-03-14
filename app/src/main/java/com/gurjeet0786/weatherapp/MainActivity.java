@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     TextView dayTv, nightTv;
     EditText etCity, etCountry;
     TextView tvResult;
-    private final String url = "http://api.openweathermap.org/data/2.5weather?q=weather?q=";
+    private final String url = "http://api.openweathermap.org/data/2.5/weather?q=";
     private final String appid = "f797f917725cbeccc1461c2fd49adb19";
     DecimalFormat df = new DecimalFormat("#.##");
 
